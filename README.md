@@ -28,7 +28,7 @@ app/
   utils/ (Persistência simples)
 ```
 
-## Padrões Aplicados (mín. 7, aqui 9)
+## Padrões Aplicados 
 - **Singleton**: controle global de sessão (`app/core/session.py`)
 - **Factory Method**: criação de perfis/usuários (`app/core/users.py`)
 - **Strategy**: estratégias de pontuação (dificuldade, acurácia, tempo) (`app/challenges/scoring.py`)
